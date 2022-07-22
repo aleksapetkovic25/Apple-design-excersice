@@ -1,0 +1,248 @@
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .wrapper{
+        width: 950px;
+    }
+    .header .wrapper nav ul li a:link,
+    .header .wrapper nav ul li a:visited{
+        padding: 35px 13px;
+    }
+    .heroText{
+        width: 400px;
+    }
+    .skills .wrapper progress{
+        width: 450px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .wrapper{
+        width: 80%;
+    }
+    .header{
+        position: static;
+        background-color: #ddd;
+    }
+    .header .wrapper{
+        display: block;
+    }
+    .header .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header .wrapper ul{
+        justify-content: center;
+    }
+    .header .wrapper nav ul li a:link,
+    .header .wrapper nav ul li a:visited{
+        padding: 20px 15px;
+    }
+    .hero .wrapper{
+        padding-bottom: 15px;
+    }
+    .heroText{
+        margin: 0 auto;
+    }
+    
+    .hero .wrapper p{
+        background-color: rgba(240, 255, 255, 0.137);
+    }
+    .hero h1{
+        margin-bottom: 15px;
+    }
+    .about .wrapper{
+        margin: 50px auto;
+    }
+    .skills{
+        padding: 30px;
+    }
+    .skills .wrapper progress{
+        width: 400px;
+        margin: 10px 0;
+    }
+    .clients .wrapper{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .clients .wrapper article{
+        padding: 70px 0;
+        flex-basis: 48%;
+        text-align: center;
+    }
+    .products a{
+        width: 50%;
+    }
+    .usluge .usluga{
+        padding-top: 40px;
+        width: 45%;
+    }
+    .slider .wrapper{
+        width: 80%;
+    }
+    .form-example{
+        margin-bottom: 0;
+    }
+    .form .wrapper{
+        padding: 50px;
+    }
+    .formFlex{
+        display: block;
+    }
+    #name, #email{
+        display: block;
+    }
+    #name, #email, #title, #comments{
+        margin: 20px auto;
+        width: 500px;
+        padding: 0;
+    }
+    #title{
+        margin: 0;
+    }
+    .footer .wrapper{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+            "fut1 contact contact"
+            "info info2 social";
+    }
+    .social, .info, .info2{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .wrapper{
+        width: 80%;
+    }
+    #hambMenu{
+        display: inline-block;
+    }
+    .header{
+        background-color: rgba(255, 255, 255, 0.795);
+        color: black;
+        position: static;
+    }
+    .header .wrapper{
+        justify-content: start
+    }
+    .header .wrapper nav{
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+    }
+    .header .wrapper nav ul{
+        display: none;
+        position: absolute;
+        text-align: right;
+        left: -115px;
+        top: 28px;
+        padding: 15px 30px 15px 40px;
+        font-size: 15px;
+        background-color: #fff;
+    }
+    .header .wrapper nav ul li a:link,
+    .header .wrapper nav ul li a:visited{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .hero{
+        background: url(img/laptop-bg-mobile.jpg) no-repeat left center / cover;
+    }
+    .hero .wrapper{
+        padding-bottom: 100px;
+    }
+    .heroText{
+        width: 80%;
+        padding-top: 100px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero button{
+        text-align: center;
+        padding: 15px 30px;
+        margin-top: 25px;
+    }
+    .about .wrapper{
+        margin: 50px auto;
+        width: 80%;
+    }
+    .skills{
+        background:  url(img//prof-skills-bg.jpg) no-repeat right center / cover;
+        padding: 70px 0;
+        font-size: 15px;
+    }
+    .skills h2{
+        margin-bottom: 30px;
+    }
+    .skills .wrapper progress{
+        width: 80%;
+        margin: 10px 0;
+    }
+    .clients .wrapper{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .clients .wrapper article{
+        padding: 60px 0;
+        flex-basis: 48%;
+        text-align: center;
+    }
+    .products a{
+        width: 50%;
+    }
+    .usluge .usluga{
+        padding-top: 30px;
+        width: 48%;
+    }
+    .slider .wrapper{
+        width: 80%;
+    }
+    .partner .wrapper{
+        display: block;
+        padding: 20px 0;
+    }
+    .partner img{
+        display: block;
+        margin: 0 auto;
+    }
+    .form-example{
+        margin-bottom: 0;
+    }
+    .form .wrapper{
+        padding: 35px;
+    }
+    .formFlex{
+        display: block;
+        max-width: 100%;
+    }
+    #name, #email{
+        display: block;
+    }
+    #name, #email, #title, #comments{
+        margin: 20px auto;
+        width: 80%;
+        padding: 0;
+    }
+    #title{
+        margin: 0;
+    }
+    .form .wrapper button{
+        border: none;
+        background-color: #39b4b0b2;
+        padding: 14px 30px;
+    }
+    .footer .wrapper{
+        display: block;
+        padding: 30px 0;
+    }
+    .info, .info2, .social, .fut1{
+        margin-left: 0;
+        margin: 10px 0;
+    }
+}
