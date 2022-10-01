@@ -50,6 +50,7 @@ img{
     font-size: 14px;
 }
 .hero{
+	height: 100vh;
     background:url(img/back1.jpg) no-repeat  center center / cover;
 }
 .hero .wrapper{
